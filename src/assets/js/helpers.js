@@ -150,7 +150,7 @@ export default {
         infoDiv.innerText = `${senderName} - ${moment().format('Do MMMM, YYYY h:mm a')}`;
 
         let colDiv = document.createElement('div');
-        colDiv.className = `col-10 card chat-card msg ${msgBg}`;
+        colDiv.className = `col-10 card chat-card msg bg-white ${msgBg}`;
         colDiv.innerHTML = xssFilters.inHTMLData(data.msg).autoLink({ target: "_blank", rel: "nofollow" });
 
         let rowDiv = document.createElement('div');
