@@ -13,4 +13,4 @@ Can choose HD option
 # NOTE 
 You can create a free `xirsys.com` account and use your free ice server and replace one in helpers.js. Copy your Static TURN Credentials and replace in `function getIceServer() in helpers.js`. 
 # DEMO 
-https://midterm-nodejs.onrender.com
+https://midterm-nodejsofficial.onrender.com
