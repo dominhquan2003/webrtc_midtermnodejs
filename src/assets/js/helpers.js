@@ -111,14 +111,13 @@ export default {
         return {
             iceServers: [
                 {
-                    urls: ["stun:hk-turn1.xirsys.com"]
+                    urls: [ "stun:hk-turn1.xirsys.com" ]
                 },
                 {
-                    username: "hnpgHWYYIKB2huTjjmsCicyfku4CyJdslinfp4aQQZ2anCX45kqgpKfB7AX_J1vaAAAAAGV1TxhiaW5ubg==",
-                    credential: "813e9f3c-971e-11ee-9be7-0242ac120004",
+                    username: "vFF0VRwoKxLW44x0J0VEjDM5kEeBc9Axd0FM_q5cT89QnRS-GCrt5GM8XVVysIKGAAAAAGV-_2NxdWVuaHU=",
+                    credential: "dfe46708-9ce4-11ee-8eff-0242ac120004",
                     urls: [
                         "turn:hk-turn1.xirsys.com:80?transport=udp",
-                        "turn:hk-turn1.xirsys.com:3478?transport=tcp",
                         "turn:hk-turn1.xirsys.com:3478?transport=udp",
                         "turn:hk-turn1.xirsys.com:80?transport=tcp",
                         "turn:hk-turn1.xirsys.com:3478?transport=tcp",
